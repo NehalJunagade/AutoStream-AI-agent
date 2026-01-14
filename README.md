@@ -1,3 +1,4 @@
+
 ## How to run the project locally
 step1. Make a copy of the repository
 step2. Install dependencies: pip install -r requirements.txt
@@ -10,3 +11,5 @@ To achieve context retention without excessive memory development, the agent use
 
 ## Explain how you would integrate this agent with WhatsApp using Webhooks
 This agent can be integrated with WhatsApp via a webhook-based method through providers like Meta WhatsApp Cloud API or Twilio. A webhook endpoint (such as FastAPI) is used to receive incoming communications.Every message calls the agent and modifies the LangGraph state. The provider's API is used to send the responses back to WhatsApp.
+
+
